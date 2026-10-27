@@ -80,4 +80,4 @@ tests/
 4. Routes dans `app/api/v1/routes/<domaine>.py`, puis les brancher dans `app/api/v1/router.py`.
 5. Tests dans `tests/`.
 
-Voir [CONTRIBUTING.md](CONTRIBUTING.md) pour le workflow Git.
+Voir [CONTRIBUTING.md](CONTRIBUTING.md) pour la stratégie Git (`master` ← `dev` ← `release/*` ← `issue-*`).
