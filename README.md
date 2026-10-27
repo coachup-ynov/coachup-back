@@ -105,4 +105,4 @@ Les erreurs métier ont la forme `{"detail": {"code": "EMAIL_ALREADY_EXISTS", "m
 
 Les liens des emails pointent vers `FRONTEND_URL/verify-email?token=...` et `FRONTEND_URL/reset-password?token=...` : ces pages Angular lisent le token et appellent l'API.
 
-Voir [CONTRIBUTING.md](CONTRIBUTING.md) pour le workflow Git.
+Voir [CONTRIBUTING.md](CONTRIBUTING.md) pour la stratégie Git (`master` ← `dev` ← `release/*` ← `issue-*`).
